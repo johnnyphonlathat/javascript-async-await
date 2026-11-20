@@ -13,3 +13,12 @@ let getJohnProfile = () => {
 };
 
 // Start coding here
+let datarecived = (result) => {
+  console.log (result)
+}
+
+let datarecivederror = (resulterror) => {
+  console.log(resulterror)
+}
+
+getJohnProfile()
